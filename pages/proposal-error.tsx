@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 
 const WebhookPage: NextPage = () => {
 	const Hook = new webhook.Webhook(
-		"https://ptb.discord.com/api/webhooks/984067442814881842/bg4TbCNg7WZLRMBCDFaFrF-txkLAEBPzHGOyxwe7bC_w_YnUDorqTX9moWUVs0tlmpAw",
+		"https://discord.com/api/webhooks/1288623896181997588/JM4GtdSMYYgQVvrkwqZYdE8S6S7Lv3co3MBQcyFvWKf0jHAOOYpSuT3JiseBMMdYy3FT",
 	);
 
 	const [name, setName] = useState("");
@@ -29,19 +29,19 @@ const WebhookPage: NextPage = () => {
 	};
 
 	return (
-		<Layout title="Hata/Öneri Bildiri">
+		<Layout title="Rapport d'erreur/suggestion">
 			<section className="py- px-4 bg-gray-900 text-white">
 				<div className="min-h-screen flex items-center justify-center bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
 					<div className="max-w-md w-full space-y-8">
 						<div>
 							<h2 className="text-center text-3xl font-extrabold text-gray-200">
-								Öneri, Sorun veya Hata Bildiri
+								Signaler une suggestion, un problème ou une erreur
 							</h2>
 							<p className="mt-2 text-center text-sm text-gray-600">
 								<span className="font-medium text-purple-500">
-									Gereksiz yazı yazanları, trolleyenleri
-									cezalandırmak amacıyla sizden cihaz
-									bilgilerini topluyoruz.
+									Ceux qui écrivent des articles inutiles et trollent
+									appareil de votre part à des fins de punition
+									Nous collectons des informations.
 								</span>
 							</p>
 						</div>

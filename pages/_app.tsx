@@ -40,7 +40,7 @@ const App = ({ Component, pageProps }) => {
 				<meta name="theme-color" content={CONFIG.SEO.themeColor} />
 				<meta
 					name="author"
-					content="Berkant GÜNAYDIN, gunaydinberkant13@gmail.com"
+					content="interDev"
 				/>
 				<meta name="keywords" content={CONFIG.SEO.keywords.join(",")} />
 				<meta name="description" content={CONFIG.SEO.description} />
